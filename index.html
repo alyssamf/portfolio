@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" type=text/css href="style.css">
+    <head>
+<title>Alyssa Feagans</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body>
+  
+  <!--HOME (WELCOME PAGE-->
+  <div class="modal-wrap flex">
+    <div class="mask"></div>
+    <div class="modal" id="modal" style="max-width: 700px;">
+      <div class="carousel-wrap" style="width: 700px;">
+        <div class="window">
+          <div id="carousel" style="left: -700px;">
+          <div class="slide" style="width: 700px;"></div>
+          <div class="slide" style="width: 700px;"></div>
+          <div class="slide" style="width: 700px;"></div>
+          </div>
+          <i class="mdi mdi-chevron-left" id="prev"></i>
+          <i class="mdi mdi-chevron-right" id="next"></i>
+        </div>
+
+      </div>
+      <div class="info-box">
+        <div class="title"></div>
+        <div class="tag"></div>
+        <div class="detail"></div>
+        <a href="#" target="_blank"><div class="button"><i class="mdi mdi-open-in-new"></i>VIEW SITE</div></a>
+      </div>
+      <i class="close mdi mdi-close"></i>
+    </div>
+  </div>
+  
+  
+  <section id="home" class="flex height-fix">
+    <div id="pt" class="canvas"><canvas id="canvas" width="1242" height="2367" style="width: 414px; height: 789px;"></canvas></div>
+    <div class="flex">
+
+      <div class="text">
+        Hello World! I'm <span class="highlight">Alyssa Feagans</span>.
+        <br>
+        I'm an aspiring programmer studying computer science at UCF
+      </div>
+      
+      <!--button to click to enter about-->
+      <div class="button page-link">
+      <a href="#about">Learn More</a> </div>
+      
+      <!--Navigation Bar-->
+      <div id="navbar">
+      <nav class="flex desk">
+        <div class="link-wrap">
+          
+          <div class="page-link active"><a href="#home">home</a></div>
+          <div class="page-link"><a href="#about">about</a></div>
+          <div class="page-link"><a href="#projects">projects</a></div>
+          <div class="page-link"><a href="#contact">contact</a></div>
+        </div>
+      </nav>
+    </div>
+    </div>
+  </section>
+  
+
+<!-- ABOUT -->
+  <section id="about">
+    <div class="container flex">
+      <div class="header waypoint">ABOUT</div>
+       <div class="header-bar waypoint"></div>
+        <div class="me"> 
+           <img src="images/me.jpg" class="me">
+           <h2>Hi! My name is Alyssa Feagans. I am studying computer science at the <a href="https://www.ucf.edu/" target="_blank" span class="highlight">University of Central Florida</span>.</a> 
+           My studies will focus on artificial intelligence and robotics. Additionally, I am interested in digital forensics and programming video games. I have a passion for solving complex problems. I also enjoy teaching and mentoring others. I have experience in RUBY, HTML 5 & CSS, JAVASCRIPT, and C. See some of my recent projects below.  </h2>
+          </div>
+      </div>
+    </div>
+  </section>
+
+<!-- PROJECTS -->
+  <section class="flex" id="projects">
+
+    <div class="header waypoint">PROJECTS</div>
+     <div class="header-bar waypoint"></div>
+    
+
+    <div id="gallery" class="container flex row wrap waypoint">
+      
+      
+      <div class="mix js" data-my-order="1" style="display: inline-block;" data-bound="">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Website for model</div>
+            <span class="me">HTML 5 & CSS</span>
+          </div>
+          <div class="button" id="walker"><a href="http://jannahidchowdhury.com/" target="_blank">Launch Website</a></div>
+        </div>
+      </div>
+
+      <div class="mix rails" data-my-order="1" style="display: inline-block;" data-bound="">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Virtual Reality Simulation</div>
+            <span class="me">JAVASCRIPT & HTML 5 & CSS</span>
+             <div class="me">*WARNING*: Loudly auto plays David Bowie </div>
+          </div>
+           <div class="button" id="walker"><a href="https://jenrose24.github.io/the-simulation/space.html" target="_blank">Launch VR</a></div>
+        </div>
+      </div>
+
+      <!--<div class="mix node" data-my-order="1" style="display: inline-block;" data-bound="">-->
+      <!--  <div>-->
+      <!--    <div class="card"></div>-->
+      <!--    <div class="text">-->
+      <!--      <div class="bold">MY STAND</div>-->
+      <!--      <span class="highlight">Node.js on Sails</span>-->
+      <!--    </div>-->
+      <!--    <div class="button" id="mystand">LEARN MORE</div>-->
+      <!--  </div>-->
+      <!--</div>-->
+
+  </section>
+
+
+
+  <!-- CONTACT -->
+  <div id="contact">
+    <div class="container flex">
+      <div class="header waypoint">CONTACT</div>
+      <div class="header-bar waypoint"></div>
+      <div class="me">
+        <h2>Have a question or want to work together?</h2>
+        <h2>Email me at AlyssaFeagans@gmail.com</h2>
+      </div>
+      
+
+  </div>
+
+  <footer>
+    
+    <div class="icon-wrap flex row">
+      <a href="https://www.linkedin.com/in/alyssa-feagans-7602a914b">
+        <div class="flex icon" id="icon-2">
+          <i class=" fab fa-linkedin"></i>
+        </div>
+      </a>
+      <a href="https://github.com/alyssamf">
+        <div class="flex icon " id="icon-3">
+          <i class=" fab fa-github-square"></i>
+        </div>
+      </a>
+      <a href="https://codepen.io/alyssamf/">
+        <div class="flex icon" id="icon-4">
+          <i class=" fab fa-codepen"></i>
+        </div>
+      </a>
+    </div>
+    <div class="info-box">
+      <div class="footnote">MF Tech<span class="highlight"> 2019</span></div>
+    </div>
+  </footer>
+
+</div>
+
+<div id="preload">
+
+  <img src="images/me.jpg">
+</div>
+
+
+
+
+</body>
+</html>
