@@ -391,7 +391,7 @@ section {
            section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
           background: url("images/space.png") center center/ cover;}
 
-        section:nth-of-type(3) #gallery .mix .card {
+        section:nth-of-type(2) #gallery .mix .card {
           margin: 25px;
           height: 240px;
           max-width: 100%;
