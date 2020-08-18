@@ -387,11 +387,8 @@ section {
 
              section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
           background: url("images/snapchat.jpg") center center/ cover;}
-
-        section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-          background: url("images/janna.png") center center/ cover;}
           
-           section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
+           section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
           background: url("images/space.png") center center/ cover;}
 
         section:nth-of-type(3) #gallery .mix .card {
